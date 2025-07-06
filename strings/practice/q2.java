@@ -23,14 +23,14 @@ public class q2 {
             boolean result = Arrays.equals(arr1, arr2);
 
             if (result) {
-                System.out.println(" Youer " + str1 + " and " + str2 + " is anagrams");
+                System.out.println(" Your " + str1 + " and " + str2 + " is anagrams");
             } else {
-                System.out.println(" Youer " + str1 + " and " + str2 + " is not anagrams");
+                System.out.println(" Your " + str1 + " and " + str2 + " is not anagrams");
 
             }
 
         } else {
-            System.out.println(" Youer " + str1 + " and " + str2 + " is not anagrams");
+            System.out.println(" Your " + str1 + " and " + str2 + " is not anagrams");
 
         }
 
