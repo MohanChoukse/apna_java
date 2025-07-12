@@ -1,5 +1,4 @@
- package apna_java.condition_Statement11.my;
-
+package apna_java.condition_Statement11.my;
 
 public class condition {
 
@@ -7,26 +6,26 @@ public class condition {
     // find largest of 2 number
     // int a=1, b=2;
     // if (a>b) {
-    //     System.out.println(a);
+    // System.out.println(a);
     // }
     // System.out.println(b);
 
     // find even or odd
     // int a =2;
     // if(a%2!=0){
-    //     System.out.println("Even");
+    // System.out.println("Even");
     // }else{
-    //     System.out.println("Odd");
+    // System.out.println("Odd");
     // }
 
     // 3 largest number
     // int a =22, b=22, c=22;
     // if (a >= b && a>=c) {
-    //     System.out.println("a"+a);
+    // System.out.println("a"+a);
     // }else if (b>=a && b>=c) {
-    //     System.out.println("b"+b);
+    // System.out.println("b"+b);
     // }else {
-    //     System.out.println("c"+c);
+    // System.out.println("c"+c);
     // }
 
     // student pass or fail using trenary opreater
@@ -40,9 +39,9 @@ public class condition {
     boolean c = year % 100 == 0 && year % 400 == 0;
 
     if (a && (b || c)) {
-      System.out.println("its leep year");
+      System.out.println("its leap year");
     } else {
-      System.out.println("not a leep year");
+      System.out.println("not a leap year");
     }
   }
 }
