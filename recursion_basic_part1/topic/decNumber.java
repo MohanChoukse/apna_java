@@ -23,6 +23,6 @@ public class decNumber {
 
     public static void main(String[] args) {
         funDec(10);
-        funInc(10);
+        funInc(10); // op
     }
 }
