@@ -57,7 +57,7 @@ public class mergeSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 6, 3, 9, 5, 2, 8 };
+        // int arr[] = { 6, 3, 9, 5, 2, 8 };
         mergeSorted(arr, 0, arr.length - 1);
         printMerge(arr);
     }
