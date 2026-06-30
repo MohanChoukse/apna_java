@@ -20,7 +20,7 @@ public class bubble_sort {
             System.out.print(arr[i] + " ");
 
         }
-        System.out.println();
+        System.out.println(); 
     }
 
     public static void main(String[] args) {
