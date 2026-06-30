@@ -70,7 +70,27 @@
         }
     }
 
-   
+    public int helper(Node head , int key){
+        if(head == null){
+            return -1;
+        }
+
+        if(head.data == key){
+            return 0;
+        }
+        int idx = helper(head.next, key);
+
+        if(idx == -1){
+            return -1;
+        }
+
+        return idx+1;
+
+    }
+
+   public int recSearch(int key){
+    return helper(head, key);
+   }
    
    
     public void display() {
@@ -88,13 +108,16 @@ public class linkedList {
         DoubleLL list = new DoubleLL();
         list.addFirst(3);
         list.addFirst(2);
-        list.addFirst(1);
+        list.addFirst(3);
         list.addLast(4);
-        list.addLast(5);
+        list.addLast(3);
 
         System.out.println("Elements in the linked list:");
         list.display();
-        list.removeLast();
-        list.display();
+        // list.removeLast();
+       
+     int a =   list.recSearch(3);
+     System.out.println(a);
+         list.display();
     }
 }
